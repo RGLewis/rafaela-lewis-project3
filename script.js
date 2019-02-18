@@ -213,13 +213,13 @@ $(function () {
         `);
         } else {
             $(".results-content").html(`
-            <h3 class="excuse-heading">${excuses.emergency[3].heading}</h3>
+            <h3 class="excuse-heading">${excuses.emergency[randomNumber].heading}</h3>
 
-            <p class="results-para"> <span class="bold">Say:</span> "${excuses.emergency[3].sayThis}"</p>
+            <p class="results-para"> <span class="bold">Say:</span> "${excuses.emergency[randomNumber].sayThis}"</p>
 
-            <p class="results-para"> <span class="bold">Repeatability:</span> ${excuses.emergency[3].frequency}</p>
+            <p class="results-para"> <span class="bold">Repeatability:</span> ${excuses.emergency[randomNumber].frequency}</p>
 
-            <p class="results-para"> <span class="bold">Hot Tip:</span> ${excuses.emergency[3].hotTip}</p>
+            <p class="results-para"> <span class="bold">Hot Tip:</span> ${excuses.emergency[randomNumber].hotTip}</p>
             `);
         };
     });
