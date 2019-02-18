@@ -135,11 +135,3 @@
         width: 85%;
     }
 }
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-    // Add padding top and bottom to each section, when user is on mobile
-    .header-flex-container, .question-flex-container, .results-flex-container {
-        padding: 20px 0;
-    }
-}

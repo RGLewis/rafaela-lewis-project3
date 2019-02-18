@@ -451,8 +451,3 @@ input[type="radio"] {
     font-size: 0.9rem; }
   .footer-para {
     width: 85%; } }
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-  .header-flex-container, .question-flex-container, .results-flex-container {
-    padding: 20px 0; } }
