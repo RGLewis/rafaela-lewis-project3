@@ -1,0 +1,19 @@
+// Font families
+$primary-font: 'Raleway', sans-serif;
+$accent-font: 'Luckiest Guy', cursive;
+
+// Font weights
+$medium: 500;
+$bold: 700;
+$black: 900;
+
+// Colors
+$element-background: rgba(250, 240, 230, 0.95);
+$light-accent: rgb(250, 240, 230);
+$primary-text: rgb(54, 53, 55);
+$vibrant-accent: rgb(0,255,127);
+$darken-vibrant-accent: darken($vibrant-accent, 10%);
+$darkest-vibrant-accent: darken($vibrant-accent, 20%);
+
+// Line heights
+$height-medium: 1.6;

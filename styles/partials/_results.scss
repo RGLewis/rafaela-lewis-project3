@@ -1,0 +1,32 @@
+// Results flex styles
+.results-flex-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+// Background
+.results-background-container {
+    background: $element-background;
+    padding: 20px 20px 30px 20px;
+    border-radius: 10px;
+}
+
+// Additional class styles:
+// NOTE: Although styling is different, I opted to make .excuse-heading an H3, as it holds the same significance as the quiz questions
+.excuse-heading {
+    font-family: $accent-font;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bold {
+    font-size: 1.7rem;
+    font-weight: $bold;
+}
+
+.results-para {
+    margin-top: 20px;
+}

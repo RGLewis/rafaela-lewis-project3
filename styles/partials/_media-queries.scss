@@ -1,0 +1,145 @@
+// Adjust font sizes and padding
+@media (max-width: 1150px) {
+    // Adjust font sizes
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    p, .answer-label {
+        font-size: 1.3rem;
+    }
+
+    .answer-label::before {
+        top: -7px;
+    }
+    
+    .excuse-heading {
+        font-size: 2rem;
+    }
+
+    .bold {
+        font-size: 1.5rem;
+        font-weight: $bold;
+    }
+
+    // Adjust padding on Background Containers
+    .header-background-container, .question-background-container {
+        padding: 70px 30px;
+    }
+}
+
+// Adjust font sizes and button widths
+@media (max-width: 920px) {
+    // Adjust font sizes
+    h1 {
+        font-size: 4rem;
+    }
+   
+    p, .answer-label {
+        font-size: 1.1rem;
+    }
+
+    .bold {
+        font-size: 1.3rem;
+    }
+
+    // Adjust button width
+    .button:not(.get-started) {
+        width: 60%;
+    }
+}
+
+// Adjust footer
+@media (max-width: 720px) {
+.footer-para {
+        padding: 30px 30px 80px 30px;
+    }
+}
+
+// Adjust font sizes
+@media (max-width: 680px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+// Adjust font sizes and button widths
+@media (max-width: 640px) {
+    // Adjust font sizes
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .excuse-heading {
+        font-size: 1.3rem;
+    }
+
+    p, .answer-label {
+        font-size: 1rem;
+    }
+
+    .footer-para {
+        font-size: 0.8rem;
+        width: 70%;
+    }
+
+    .bold {
+        font-size: 1.1rem;
+    }
+
+    .button:not(.get-started) {
+        width: 80%;
+    }
+}
+
+// Adjust button sizes, h1, h3 and footer
+@media (max-width: 550px) {
+    .button {
+        font-size: 1rem;
+        border: 5px double $darken-vibrant-accent;
+        padding: 10px 20px;
+        margin-top: 20px;
+    
+        &:hover, &:active, &:focus {
+            border: 5px double $primary-text;
+        }
+    }
+
+    .button:not(.get-started) {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        font-weight: $bold;
+    }
+
+    .excuse-heading {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .footer-para {
+        width: 85%;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    // Add padding top and bottom to each section, when user is on mobile
+    .header-flex-container, .question-flex-container, .results-flex-container {
+        padding: 20px 0;
+    }
+}

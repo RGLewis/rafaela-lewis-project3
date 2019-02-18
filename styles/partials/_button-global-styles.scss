@@ -1,0 +1,50 @@
+.button {
+    font-family: $accent-font;
+    font-size: 1.5rem;
+    line-height: $height-medium;
+    letter-spacing: 0.05rem;
+    background: transparent;
+    border: 10px double $darken-vibrant-accent;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 20px $vibrant-accent;
+    transition: background 500ms, border 500ms, box-shadow 500ms, border-radius 200ms;
+    margin-top: 40px;
+   
+    &:hover, &:active, &:focus {
+        background: $darken-vibrant-accent;
+        border: 10px double $primary-text;
+        box-shadow: 0px 4px 20px $primary-text;
+    }
+
+    &:active, &:focus {
+        border-radius: 40px;
+    }
+}
+
+.button:not(.get-started) {
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+// Sweet Alert styles
+.swal-button {
+    // override vendor style
+    background: $vibrant-accent;
+
+    &:not([disabled]):hover {
+        background: $darken-vibrant-accent;
+    }
+
+    &:active {
+        background: $vibrant-accent;
+    }
+
+    &:focus {
+        background: $vibrant-accent;
+    }
+}

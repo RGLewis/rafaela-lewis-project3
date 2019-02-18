@@ -1,0 +1,70 @@
+/* Default styles */
+img {
+    max-width:100%;
+    width: 100%;
+    display: block;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Wrapper styles */
+.wrapper {
+	max-width: 1600px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* Font and Background Styles */
+html {
+    font-size: 125%;
+}
+
+body {
+    // Background image
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-position: 40% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    // Font styles
+    font-family: $primary-font;
+    color: $primary-text;
+    line-height: $height-medium;
+}
+
+// Font styles
+
+h1 {
+    font-family: $accent-font;
+    font-size: 5rem;
+    letter-spacing: 8px;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    font-weight: $black;
+}
+
+h3 {
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: $medium;
+    letter-spacing: 2px;
+}
